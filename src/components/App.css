@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+#navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    
+}
+#logoimg {
+    width: 220px;
+}
+.fs60 {
+    font-size: 60px;
+}
+.offerContainer {
+    background-image: url(https://www.sellwise.pl/wp-content/uploads/2020/09/sellwsie_home-1.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: scroll;
+    background-size: cover;
+}
+.offerElementsContainer {
+    background-color: #2b2b5b;
+    margin-top: -10px;
+}
+.offerLink  {
+    text-decoration: none;
+    color: #2b2b5b;
+    font-size: large;
+    font-weight: bold;
+}
+.offerLink :hover {
+    color: blue;
+}
