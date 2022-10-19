@@ -5,7 +5,7 @@ import CompanyElement from './elements/CompanyElement';
 
 const CompaniesContainer = () => {
     return (
-        <Container fluid className="p-5 bg-light text-center text-lg-start">
+        <Container fluid className="p-5 bg-light text-center">
             <Row className="gy-5">
                 <CompanyElement 
                 src={"https://www.sellwise.pl/wp-content/uploads/2020/03/future-processing.png"}
