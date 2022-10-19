@@ -3,6 +3,9 @@
 body {
     font-family: 'Montserrat', sans-serif;
 }
+.App {
+    background: #2b2b5b;
+}
 ::-webkit-scrollbar {
     display: none;
 }
@@ -13,9 +16,14 @@ body {
     z-index: 10;
     
 }
+#home {
+    padding: 0;
+    line-height: 30px;
+}
 #logoimg {
     width: 220px;
 }
+
 .fs60 {
     font-size: 60px;
 }
@@ -38,4 +46,9 @@ body {
 }
 .offerLink :hover {
     color: blue;
+}
+ul, ul>li>a {
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
 }

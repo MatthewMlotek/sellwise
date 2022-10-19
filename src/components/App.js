@@ -10,6 +10,9 @@ import IndustriesContainer from './IndustriesContainer';
 import OpinionsCarousel from './OpinionsCarousel';
 import CompaniesContainer from './CompaniesContainer';
 import BenefitsContainer from './BenefitsContainer';
+import ConsultationContainer from './ConsultationContainer';
+import ContactContainer from './ContactContainer';
+import FooterContainer from './FooterContainer';
 
 
 function App() {
@@ -24,6 +27,9 @@ function App() {
       <OpinionsCarousel />
       <CompaniesContainer/>
       <BenefitsContainer/>
+      <ConsultationContainer />
+      <ContactContainer />
+      <FooterContainer/>
      
     </div>
   );

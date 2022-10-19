@@ -4,7 +4,7 @@ import {Container, Row, Col} from 'react-bootstrap'
 
 const HelloContainer = () => {
     return (
-        <Container fluid style={{marginTop: '90px'}} className="px-5">
+        <Container fluid style={{marginTop: '90px'}} className="px-5 bg-white">
             <Row>
                 <Col xs={12} lg={6}>
                     <span className='fs60'>
@@ -27,6 +27,7 @@ const HelloContainer = () => {
                             Wierzymy, że prawdziwy rozwój sprzedaży to proces, dlatego pracujemy od A do Z. Przeprowadzamy audyt, wspólnie z klientem przygotowujemy strategię, procesy i wdrażamy narzędzia IT, a na koniec – profesjonalnie szkolimy i uzupełniamy zespół.
                             </p>
                         </Col>
+                        
                     </Row>
                     <hr />
                 </Col>

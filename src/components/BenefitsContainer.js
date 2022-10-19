@@ -1,10 +1,11 @@
 import React from 'react';
 
 import {Container, Row, Col} from 'react-bootstrap'
+import BenefitElement from './elements/BenefitElement';
 
 const BenefitsContainer = () => {
     return (
-        <Container fluid className='p-5'>
+        <Container fluid className='p-5 bg-white'>
             <Row className="d-none d-lg-flex flex-row">
                 <Col lg={5} >
                     <span className="fs-1">
@@ -40,6 +41,57 @@ const BenefitsContainer = () => {
                     </p>
 
                 </Col>
+            </Row>
+            <Row className='border-lg-bottom border-gray text-center text-lg-start pt-4'>
+               <BenefitElement
+               col={5}
+               src="https://www.sellwise.pl/wp-content/uploads/2020/03/skuteczny_prospecting_ikona.svg"
+               alt="prospecting ikona"
+               line="Skuteczny"
+               strong="prospecting"
+               />
+
+               <BenefitElement
+               col={5}
+               src="https://www.sellwise.pl/wp-content/uploads/2020/03/wzrost_sprzedaz%CC%87y_ikona.svg"
+               alt="sprzedaż ikona"
+               line="Wzrost"
+               strong="sprzedaży"
+               />
+
+               <BenefitElement
+               col={2}
+               src="https://www.sellwise.pl/wp-content/uploads/2020/03/krotszy_cykl_sprzedazy.svg"
+               alt="klepsydra ikona"
+               line="Krótszy"
+               strong="cykl sprzedaży"
+               />
+            </Row>
+
+            <Row className='border-lg-bottom border-gray text-center text-lg-start pt-4'>
+               <BenefitElement
+               col={5}
+               src="https://www.sellwise.pl/wp-content/uploads/2020/03/wzorst_marzy_ikona.svg"
+               alt="marża ikona"
+               line="Wzrost"
+               strong="marży"
+               />
+
+               <BenefitElement
+               col={5}
+               src="https://www.sellwise.pl/wp-content/uploads/2020/03/wzrost_wartosci_transakcji_ikona.svg"
+               alt="transakcja ikona"
+               line="Wzrost"
+               strong="wartości transakcji"
+               />
+
+               <BenefitElement
+               col={2}
+               src="https://www.sellwise.pl/wp-content/uploads/2020/03/trafne_prognozy_ikona.svg"
+               alt="prognoza ikona"
+               line="Trafne"
+               strong="prognozy"
+               />
             </Row>
         </Container>
     );

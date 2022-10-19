@@ -4,8 +4,8 @@ import {Container, Row, Col, Nav, Navbar, NavDropdown, Button} from 'react-boots
  const TopBarNav = () => {
     return (
         <Container fluid id="navbar">
-        <Row id="home">
-          <Col xs={12} >
+        <Row >
+          <Col xs={12} id="home">
 
           <Navbar bg="white" expand="lg">
       <Container fluid className='ps-3'>
@@ -13,7 +13,8 @@ import {Container, Row, Col, Nav, Navbar, NavDropdown, Button} from 'react-boots
         <img className='img-fluid' src="https://www.sellwise.pl/wp-content/uploads/2021/10/sellwise_logo_29_retina-1.png" alt="logo" id="logoimg" />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav">
+        <div className='float-end px-5'>
+        <Navbar.Collapse id="basic-navbar-nav" >
           <Nav className="me-auto ms-5">
                 <NavDropdown title="O nas" id="about-drop-down">
                   <NavDropdown.Item href="#action/3.1">O nas</NavDropdown.Item>
@@ -57,6 +58,7 @@ import {Container, Row, Col, Nav, Navbar, NavDropdown, Button} from 'react-boots
 
           </Nav>
         </Navbar.Collapse>
+        </div>
       </Container>
     </Navbar>
 

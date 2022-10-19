@@ -1,6 +1,6 @@
 import React from 'react';
 import {Container, Row, Col} from 'react-bootstrap';
-import IndustriesElement from './IndustriesElement';
+import IndustriesElement from './elements/IndustriesElement'
 
 
 const IndustriesContainer = () => {

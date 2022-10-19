@@ -1,11 +1,11 @@
 import React from 'react';
 import {Container, Row} from 'react-bootstrap'
 
-import CompanyElement from './CompanyElement';
+import CompanyElement from './elements/CompanyElement';
 
 const CompaniesContainer = () => {
     return (
-        <Container fluid className="p-5 bg-light">
+        <Container fluid className="p-5 bg-light text-center text-lg-start">
             <Row className="gy-5">
                 <CompanyElement 
                 src={"https://www.sellwise.pl/wp-content/uploads/2020/03/future-processing.png"}
