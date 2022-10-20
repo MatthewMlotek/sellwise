@@ -1,0 +1,18 @@
+#containerWithImage {
+    background-image: url(https://www.sellwise.pl/wp-content/uploads/2020/09/sellwsie_onas-1.jpg);background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: scroll;
+    background-size: cover;
+    margin-top: 40px;
+}
+span.number {
+    color: #95EAF8;
+    font-size: 29px;
+}
+.imgElement {
+    margin-top: 30%;
+}
+a {
+    text-decoration: none;
+    color: black;
+}

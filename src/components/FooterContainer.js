@@ -7,7 +7,7 @@ const FooterContainer = () => {
             {background: "#2b2b5b"}}>
             <Row>
                 <Col xs={12} lg={3} className="d-flex flex-column">
-                    <img fluid src="https://www.sellwise.pl/wp-content/uploads/2021/10/sellwise_logo_biale_retina-footer.png" alt="sellwise logo" /> 
+                    <img src="https://www.sellwise.pl/wp-content/uploads/2021/10/sellwise_logo_biale_retina-footer.png" alt="sellwise logo" /> 
 
                     <div className='p-4'>
                     <a href="facebook">

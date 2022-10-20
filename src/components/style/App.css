@@ -20,6 +20,10 @@ body {
     padding: 0;
     line-height: 30px;
 }
+nav  :-webkit-any(a) {
+    text-decoration: none;
+    color: black;
+}
 #logoimg {
     width: 220px;
 }
