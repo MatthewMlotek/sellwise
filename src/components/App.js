@@ -25,6 +25,15 @@ import ProjectsResults from './o-nas/ProjectsResults';
 
 import CaseStudyResults from './caseStudy/CaseStudyResults';
 
+import ServicesDoradztwoContainer from './doradztwo/ServicesDoradztwoContainer';
+import HeaderSzkolenieOtwarte from './szkoleniaOtwarte/HeaderSzkolenieOtwarte';
+import TargetContainer from './szkoleniaOtwarte/TargetContainer';
+import InfoContainer from './szkoleniaOtwarte/InfoContainer';
+import LeaderContainer from './szkoleniaOtwarte/LeaderContainer';
+import YoutubeContainer from './szkoleniaOtwarte/YoutubeContainer';
+import DifferencesContainer from './szkoleniaOtwarte/DifferencesContainer';
+import SzkolenieInfo from './szkoleniaOtwarte/SzkolenieInfo';
+
 
 const Main = () => (
       <>
@@ -59,6 +68,30 @@ const CaseStudy = () => (
         <FooterContainer/>
   </>
 )
+const DoradztwoB2B = () => (
+  <>
+  
+        <ServicesDoradztwoContainer/>
+        <ConsultationContainer />
+        <ContactContainer />
+        <FooterContainer/>
+  </>
+)
+const SzkoleniaOtwarte = () => (
+      <>
+        <HeaderSzkolenieOtwarte/>
+        <TargetContainer/>
+        <InfoContainer />
+        <LeaderContainer />
+        <YoutubeContainer/>
+        <DifferencesContainer/>
+        <SzkolenieInfo/>
+
+        <ContactContainer />
+        <FooterContainer/>
+      </>  
+)
+
 
 function App() {
   return (
@@ -73,6 +106,8 @@ function App() {
         <Route path='*' element={<PageNotFound/>}/>
         <Route path='/o-nas' element={<ONas/>}/>
         <Route path='/case-study' element={<CaseStudy/>}/>
+        <Route path='/doradztwo-w-sprzedazy-i-marketingu-b2b' element={<DoradztwoB2B/>}/>
+        <Route path='/szkolenia-otwarte' element={<SzkoleniaOtwarte/>}/>
       </Routes>
 
       

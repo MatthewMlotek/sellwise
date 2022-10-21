@@ -3,7 +3,7 @@ import {Container, Row, Col, Button} from 'react-bootstrap'
 
 const AdditionalServicesContainer = () => {
     return (
-        <Container fluid className='text-center text-lg-start pt-5 text-white' style={{background: "#2b2b5b"}}>
+        <Container fluid className='text-center text-lg-start pt-5 text-white' style={{background: "#282958"}}>
             <Row className='px-5'>
                 <Col xs={12} lg={8}>
                     <span className='fs-1'>

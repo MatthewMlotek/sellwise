@@ -36,7 +36,7 @@ import { Link } from 'react-router-dom';
 
                 <Link to="/doradztwo-w-sprzedazy-i-marketingu-b2b">
                     <Nav.Link>
-                      <Link to="/doradztwo">Doradztwo</Link>
+                      <Link to="/doradztwo-w-sprzedazy-i-marketingu-b2b">Doradztwo</Link>
                     </Nav.Link>
                 </Link>
                   <NavDropdown title="Szkolenia" id="szkolenia-drop-down">

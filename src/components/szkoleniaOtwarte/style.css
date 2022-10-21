@@ -1,0 +1,13 @@
+@keyframes scale {
+    from {transform: scale(1)}
+    to {transform: scale(1.1)}
+    
+}
+
+div.targetButton:hover {
+    border-color: white;
+    cursor: pointer;
+   animation: scale 0.5s;
+   transform: scale(1.1);
+   
+}
