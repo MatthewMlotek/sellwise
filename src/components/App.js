@@ -33,6 +33,21 @@ import LeaderContainer from './szkoleniaOtwarte/LeaderContainer';
 import YoutubeContainer from './szkoleniaOtwarte/YoutubeContainer';
 import DifferencesContainer from './szkoleniaOtwarte/DifferencesContainer';
 import SzkolenieInfo from './szkoleniaOtwarte/SzkolenieInfo';
+import SzkolenieCarousel from './szkoleniaOtwarte/SzkolenieCarousel';
+
+import RekrutacjaCarousel from './RekrutacjaHandlowcow/RekrutacjaCarousel';
+import RekrutacjaHelloContainer from './RekrutacjaHandlowcow/RekrutacjaHelloContainer';
+import RekrutacjaForm from './RekrutacjaHandlowcow/RekrutacjaForm';
+import RekrutacjaTeam from './RekrutacjaHandlowcow/RekrutacjaTeam';
+import HireWiseContainer from './RekrutacjaHandlowcow/HireWiseContainer';
+import ArticlesContainer from './artykuly/ArticlesContainer';
+import ArticlePodcast from './artykuly/ArticlePodcast';
+import PodcastMainContainer from './Podcast/PodcastMainContainer';
+import PodcastEpisodesContainer from './Podcast/PodcastEpisodesContainer';
+
+import QuestionsContainer from './DarmowaKonsultacja/QuestionsContainer';
+import KonsultacjaMainContainer from './DarmowaKonsultacja/KonsultacjaMainContainer';
+import KonsultacjaFAQ from './DarmowaKonsultacja/KonsultacjaFAQ';
 
 
 const Main = () => (
@@ -86,10 +101,51 @@ const SzkoleniaOtwarte = () => (
         <YoutubeContainer/>
         <DifferencesContainer/>
         <SzkolenieInfo/>
-
+        <SzkolenieCarousel/>
         <ContactContainer />
         <FooterContainer/>
       </>  
+)
+const RekrutacjaHandlowcow = () => (
+    <>
+
+        <RekrutacjaHelloContainer/>
+        <RekrutacjaForm/>
+        <RekrutacjaTeam/>
+        <HireWiseContainer/>
+
+        <RekrutacjaCarousel/>
+        <CompaniesContainer/>
+        <ContactContainer />
+        <FooterContainer/>
+    </>
+)
+const Artykuly = () => (
+  <>
+  <HelloContainer title="Artykuły o sprzedaży i zarządzaniu w firmach B2B" titleStrong="" contentRight="Na naszym blogu przeczytasz o rozwijaniu sprzedaży, zarządzaniu, najnowszych technologiach i nie tylko. Nierzadko pojawia się też recenzja lub ranking." svg={<img src='https://www.sellwise.pl/wp-content/uploads/2021/08/ilustracja_artyku%C5%82.png' alt='grafika' className='img-fluid'/>}/>
+  <ArticlesContainer/>
+  <ArticlePodcast/>
+  <FooterContainer/>
+  </>
+)
+const Podcast = () => (
+  <>
+  <HelloContainer title="Podcast Nowoczesna Sprzedaż i Marketing" titleStrong="" contentRight="Podcast NSM to wynik misji Sellwise. Chcemy profesjonalizować sprzedaż i marketing B2B w Polsce poprzez szkolenia, doradztwo i … Podcast." svg={<img src='https://www.sellwise.pl/wp-content/uploads/2020/04/ilustracja_podcast_2-1.svg' alt='grafika' className='img-fluid'/>}/>
+  <PodcastMainContainer/>
+  <PodcastEpisodesContainer/>
+  <ContactContainer/>
+  <FooterContainer/>
+  </>
+)
+const Konsultacja = () => (
+  <>
+  <KonsultacjaMainContainer/>
+  <QuestionsContainer/>
+  <KonsultacjaFAQ/>
+  <CompaniesContainer/>
+  <ContactContainer />
+  <FooterContainer/>
+  </>
 )
 
 
@@ -108,6 +164,10 @@ function App() {
         <Route path='/case-study' element={<CaseStudy/>}/>
         <Route path='/doradztwo-w-sprzedazy-i-marketingu-b2b' element={<DoradztwoB2B/>}/>
         <Route path='/szkolenia-otwarte' element={<SzkoleniaOtwarte/>}/>
+        <Route path='/outsourcing-rekrutacji-handlowcow' element={<RekrutacjaHandlowcow/>}/>
+        <Route path='/artykuly' element={<Artykuly/>}/>
+        <Route path='/nsm' element={<Podcast/>}/>
+        <Route path='/darmowa-konsultacja' element={<Konsultacja/>}/>
       </Routes>
 
       

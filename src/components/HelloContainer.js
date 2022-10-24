@@ -27,7 +27,7 @@ const HelloContainer = (props) => {
                     </Row>
                     <hr />
                 </Col>
-                <Col className='d-none d-lg-block'>
+                <Col className='d-none d-lg-block text-center'>
                     {props.svg}
                 </Col>
             </Row>

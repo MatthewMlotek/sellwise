@@ -2,6 +2,7 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
+
 }
 .App {
     background: #282958;
@@ -56,3 +57,13 @@ ul, ul>li>a {
     text-decoration: none;
     color: white;
 }
+.RekrutacjaHelloContainer {
+    
+    background-image: url(https://www.sellwise.pl/wp-content/uploads/2020/09/sellwsie_kariera.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: scroll;
+    background-size: cover;
+
+}
+

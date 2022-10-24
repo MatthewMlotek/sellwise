@@ -4,7 +4,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 const FooterContainer = () => {
     return (
         <Container  className='text-white p-4 px-5' style={
-            {background: "#2b2b5b"}}>
+            {background: "#282958"}}>
             <Row>
                 <Col xs={12} lg={3} className="d-flex flex-column">
                     <img src="https://www.sellwise.pl/wp-content/uploads/2021/10/sellwise_logo_biale_retina-footer.png" alt="sellwise logo" /> 
